@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <title>sharks</title>
+
+      <style>
+        p {
+          font-family: fantasy;
+          color:blue;
+          font-size:15px;
+        }
+        .container {
+          width:80%
+          overflow:hidden;
+
+        }
+        #logo {
+          color: purple;
+          background-color: blue;
+          font-size: 70px;
+          width: 450px;
+          text-align: center;
+        }
+
+      </style>
+  </head>
+  <body>
+    <div class="container">
+
+    <h1 id="logo">My Shark Page</h1>
+    <a href="about.html" style="padding:20px;margin:20px;"><h2>About</h2></a>
+    <h1 title="Type of Bees">Types of Sharks</h1>
+    <h3>Why Sharks Are Important</h3>
+    <p>Sharks are vital for the preservation of ecological balance and biodiversity in nature<p>
+    <p> They keep diversity in the ocean<p>
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>Origin</th>
+        <th>Life Span</th>
+      </tr>
+      <tr>
+        <td>Hammerhead Shark</td>
+        <td>Hawaii</td>
+        <td>30 Years</td>
+      </tr>
+      <tr>
+        <td>Great White Shark</td>
+        <td>Australia</td>
+        <td>70 Years</td>
+      </tr>
+      <tr>
+        <td>Basking Shark</td>
+        <td>South America</td>
+        <td>50 Years</td>
+      </tr>
+    </table>
+    <img src="images/hammerhead.jpg" style="width:20%;height:20%;"><br>
+    <img src="images/greatwhite.jpg" style="width:20%;height:20%;"><br>
+    <img src="images/baskingshark.jpg" style="width:20%;height:20%;"><br>
+    <br>
+    <hr>
+      <script>
+      function myFunction() {
+        document.getElementById("sharks").style.fontSize = "40px";
+        document.getElementById("sharks").style.color = "black";
+        document.getElementById("shaks").style.backgroundColor = "blue";
+        document.getElementById("sharks").innerHTML = "Save The Sharks!"
+
+      }
+      </script>
+      <a href="https://saveourseas.com/why-are-sharks-important/">Important Link</a>
+
+      <button type="button" onclick="myFunction()"><h1>psssss</h1></button>
+      <h2 id="sharks"></h2>
+
+
+      <hr>
+
+      </div>
+  </body>
+
+</html>
